@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mdgDarkGreenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="60%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="mdgLightGreenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="mdgLeafGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="40%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#6EE7B7" />
+    </linearGradient>
+    <filter id="mdgShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#064E3B" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Group: Emblem Icon -->
+  <g transform="translate(15, 10)">
+    <!-- Base Rounded Hexagonal / Shield Tile -->
+    <rect x="0" y="0" width="120" height="120" rx="26" fill="url(#mdgDarkGreenGrad)" filter="url(#mdgShadow)" />
+    <!-- Inner Accent Border -->
+    <rect x="3" y="3" width="114" height="114" rx="23" fill="none" stroke="#34D399" stroke-opacity="0.35" stroke-width="2" />
+
+    <!-- Modern Apartment Building Geometry -->
+    <!-- Tower Left (Lower) -->
+    <rect x="22" y="52" width="22" height="48" rx="3" fill="#FFFFFF" fill-opacity="0.85" />
+    <!-- Tower Center (Taller High-Rise) -->
+    <rect x="47" y="32" width="26" height="68" rx="4" fill="#FFFFFF" />
+    <!-- Tower Right (Mid-Rise) -->
+    <rect x="76" y="44" width="22" height="56" rx="3" fill="#E2E8F0" fill-opacity="0.9" />
+
+    <!-- Architectural Windows -->
+    <!-- Left tower windows -->
+    <rect x="26" y="58" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="35" y="58" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="26" y="68" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="35" y="68" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="26" y="78" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="35" y="78" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="26" y="88" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="35" y="88" width="5" height="5" rx="1" fill="#047857" />
+
+    <!-- Center tower windows -->
+    <rect x="52" y="40" width="6" height="5" rx="1" fill="#065F46" />
+    <rect x="62" y="40" width="6" height="5" rx="1" fill="#065F46" />
+    <rect x="52" y="50" width="6" height="5" rx="1" fill="#065F46" />
+    <rect x="62" y="50" width="6" height="5" rx="1" fill="#065F46" />
+    <rect x="52" y="60" width="6" height="5" rx="1" fill="#065F46" />
+    <rect x="62" y="60" width="6" height="5" rx="1" fill="#065F46" />
+    <rect x="52" y="70" width="6" height="5" rx="1" fill="#065F46" />
+    <rect x="62" y="70" width="6" height="5" rx="1" fill="#065F46" />
+    <rect x="52" y="80" width="6" height="5" rx="1" fill="#065F46" />
+    <rect x="62" y="80" width="6" height="5" rx="1" fill="#065F46" />
+    <!-- Entrance door -->
+    <path d="M56 94 H64 V100 H56 Z" fill="#064E3B" />
+
+    <!-- Right tower windows -->
+    <rect x="80" y="50" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="89" y="50" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="80" y="60" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="89" y="60" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="80" y="70" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="89" y="70" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="80" y="80" width="5" height="5" rx="1" fill="#047857" />
+    <rect x="89" y="80" width="5" height="5" rx="1" fill="#047857" />
+
+    <!-- Vibrant Eco Community Leaf Sweeping Upwards Across the Towers -->
+    <path d="M18 100 C 35 102, 65 96, 85 75 C 95 65, 102 48, 104 28 C 88 32, 65 48, 52 66 C 40 82, 28 92, 18 100 Z" fill="url(#mdgLeafGrad)" />
+    <!-- Leaf Center Rib / Vein -->
+    <path d="M22 98 C 45 92, 70 75, 100 32" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.8" />
+  </g>
+
+  <!-- Group: Typography Branding -->
+  <g transform="translate(155, 30)">
+    <!-- MDG Letters -->
+    <text x="0" y="44" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="900" letter-spacing="1.5" fill="#064E3B">
+      MDG
+    </text>
+    <!-- Tag Pill / Green Dot -->
+    <circle cx="120" cy="22" r="6" fill="#10B981" />
+
+    <!-- Subtitle: Society Management System -->
+    <text x="0" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" letter-spacing="2.5" fill="#047857" text-transform="uppercase">
+      SOCIETY MANAGEMENT SYSTEM
+    </text>
+
+    <!-- Tagline: Better Living Together -->
+    <text x="0" y="88" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2" fill="#64748B">
+      Modern Digital Governance • Better Living Together
+    </text>
+  </g>
+</svg>
